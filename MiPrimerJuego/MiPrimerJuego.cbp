@@ -34,8 +34,12 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/GameMap.h" />
+		<Unit filename="include/MapCelll.h" />
 		<Unit filename="include/Player.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/GameMap.cpp" />
+		<Unit filename="src/MapCelll.cpp" />
 		<Unit filename="src/Player.cpp" />
 		<Extensions />
 	</Project>
