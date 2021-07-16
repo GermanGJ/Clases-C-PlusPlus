@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1626413456 source:d:\2gj\proyectos\c++\miprimerjuego\src\player.cpp
+	"Player.h"
+	<iostream>
+
+1626413384 d:\2gj\proyectos\c++\miprimerjuego\include\player.h
+

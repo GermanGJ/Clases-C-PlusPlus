@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1626404855 source:d:\2gj\proyectos\c++\creandoleyendoarchivo\main.cpp
+	<iostream>
+	<fstream>
+
