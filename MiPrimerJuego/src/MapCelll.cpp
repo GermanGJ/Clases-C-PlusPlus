@@ -3,5 +3,5 @@
 MapCelll::MapCelll()
 {
     //ctor
-    id = 0;
+    id = '0';
 }

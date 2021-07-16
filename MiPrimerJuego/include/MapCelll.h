@@ -7,7 +7,7 @@ class MapCelll
     public:
         MapCelll();
 
-        int id;
+        char id;
 
     protected:
 
