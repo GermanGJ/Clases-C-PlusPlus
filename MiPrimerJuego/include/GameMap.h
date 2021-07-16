@@ -8,9 +8,12 @@ class GameMap
     public:
         GameMap();
 
+        MapCelll* PlayerCell;
         MapCelll cells[15][10];
 
         void Draw();
+
+        void SetPlayerCell(int PlayerX, int PlayerY);
 
     protected:
 

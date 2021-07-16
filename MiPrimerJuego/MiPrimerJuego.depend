@@ -5,12 +5,13 @@
 
 1626413384 d:\2gj\proyectos\c++\miprimerjuego\include\player.h
 
-1626423021 source:c:\2gj\proyectos\02 - c++\clases-c-plusplus\miprimerjuego\main.cpp
+1626456336 source:c:\2gj\proyectos\02 - c++\clases-c-plusplus\miprimerjuego\main.cpp
 	<iostream>
 	"Player.h"
 	"MapCelll.h"
+	"GameMap.h"
 
-1626422338 c:\2gj\proyectos\02 - c++\clases-c-plusplus\miprimerjuego\include\player.h
+1626456391 c:\2gj\proyectos\02 - c++\clases-c-plusplus\miprimerjuego\include\player.h
 
 1626422465 source:c:\2gj\proyectos\02 - c++\clases-c-plusplus\miprimerjuego\src\player.cpp
 	"Player.h"
@@ -18,6 +19,13 @@
 
 1626423002 c:\2gj\proyectos\02 - c++\clases-c-plusplus\miprimerjuego\include\mapcelll.h
 
-1626423038 source:c:\2gj\proyectos\02 - c++\clases-c-plusplus\miprimerjuego\src\mapcelll.cpp
+1626455859 source:c:\2gj\proyectos\02 - c++\clases-c-plusplus\miprimerjuego\src\mapcelll.cpp
 	"MapCelll.h"
+
+1626457274 c:\2gj\proyectos\02 - c++\clases-c-plusplus\miprimerjuego\include\gamemap.h
+	"MapCelll.h"
+
+1626458034 source:c:\2gj\proyectos\02 - c++\clases-c-plusplus\miprimerjuego\src\gamemap.cpp
+	"GameMap.h"
+	<iostream>
 

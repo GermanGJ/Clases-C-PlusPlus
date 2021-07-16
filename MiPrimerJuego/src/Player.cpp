@@ -19,22 +19,22 @@ void Player::CallInput()
     switch(UserInput)
     {
         case 'w':
-            y = y + 1;
+            x = x - 1;
             cout << "El jugador se mueve ARRIBA!!" << endl;
             break;
 
         case 's':
-            y = y - 1;
+            x = x + 1;
             cout << "El jugador se mueve ABAJO!!" << endl;
             break;
 
         case 'd':
-            x = x + 1;
+            y = y + 1;
             cout << "El jugador se mueve DERECHA!!" << endl;
             break;
 
         case 'a':
-            x = x - 1;
+            y = y - 1;
             cout << "El jugador se mueve IZQUIERDA!!" << endl;
             break;
     }
