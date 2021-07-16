@@ -5,8 +5,15 @@ using namespace std;
 
 int main()
 {
+    bool isGameOver = false;
     Player Hero;
-    Hero.CallInput();
+
+    cout << "Inicia el Juego!!!!" << endl;
+
+    while (isGameOver == false)
+    {
+        Hero.CallInput();
+    }
 
     return 0;
 }
