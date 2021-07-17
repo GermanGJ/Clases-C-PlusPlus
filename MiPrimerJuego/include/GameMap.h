@@ -11,6 +11,7 @@ class GameMap
         MapCelll* PlayerCell;
         MapCelll cells[15][10];
 
+        void DrawIntro();
         void Draw();
 
         bool SetPlayerCell(int PlayerX, int PlayerY);

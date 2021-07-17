@@ -11,7 +11,7 @@ int main()
     GameMap Map;
     Player Hero;
 
-    cout << "Inicia el Juego!!!!" << endl;
+    Map.DrawIntro();
 
     while (isGameOver == false)
     {
@@ -26,9 +26,6 @@ int main()
             Hero.ResetToSafePosition();
             Map.Draw();
         }
-
-
     }
-
     return 0;
 }
