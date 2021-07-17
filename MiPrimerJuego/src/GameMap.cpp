@@ -25,16 +25,24 @@ void GameMap::Draw()
     }
 }
 
-void GameMap::SetPlayerCell(int PlayerX, int PlayerY)
+bool GameMap::SetPlayerCell(int PlayerX, int PlayerY)
 {
-    if (PlayerCell != NULL)
+    if(cells[PlayerX][PlayerY].IsBlocked() == false)
     {
-        PlayerCell->id = 0;
-    }
+        if (PlayerCell != NULL)
+        {
+            PlayerCell->id = 0;
+        }
 
-    PlayerCell = &cells[PlayerX][PlayerY];
-    PlayerCell->id = 'X';
-    cout << "Las coordenadas del jugador estan en: " << PlayerX << "," << PlayerY << endl;
+        PlayerCell = &cells[PlayerX][PlayerY];
+        PlayerCell->id = 'X';
+
+        return true;
+    }
+    else
+    {
+        return false;
+    }
 }
 
 void GameMap::LoadMapFromFile()

@@ -9,6 +9,8 @@ class MapCelll
 
         char id;
 
+        bool IsBlocked();
+
     protected:
 
     private:

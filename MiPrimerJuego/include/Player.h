@@ -6,10 +6,12 @@ class Player
 {
     public:
         int x, y;
+        int lastX, lastY;
 
         Player();
 
         void CallInput();
+        void ResetToSafePosition();
 
     protected:
 

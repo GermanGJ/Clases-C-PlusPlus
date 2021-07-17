@@ -19,25 +19,29 @@ void Player::CallInput()
     switch(UserInput)
     {
         case 'w':
+            lastX = x;
             x = x - 1;
-            cout << "El jugador se mueve ARRIBA!!" << endl;
             break;
 
         case 's':
+            lastX = x;
             x = x + 1;
-            cout << "El jugador se mueve ABAJO!!" << endl;
             break;
 
         case 'd':
+            lastY = y;
             y = y + 1;
-            cout << "El jugador se mueve DERECHA!!" << endl;
             break;
 
         case 'a':
+            lastY = y;
             y = y - 1;
-            cout << "El jugador se mueve IZQUIERDA!!" << endl;
             break;
     }
+}
 
-    cout << "Mi jugador esta en las coordenadas: " << x << "," << y << endl;
+void Player::ResetToSafePosition()
+{
+    x = lastX;
+    y = lastY;
 }

@@ -17,9 +17,17 @@ int main()
     {
         Hero.CallInput();
 
-        Map.SetPlayerCell(Hero.x, Hero.y);
+        if(Map.SetPlayerCell(Hero.x, Hero.y))
+        {
+            Map.Draw();
+        }
+        else
+        {
+            Hero.ResetToSafePosition();
+            Map.Draw();
+        }
 
-        Map.Draw();
+
     }
 
     return 0;

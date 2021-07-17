@@ -13,7 +13,7 @@ class GameMap
 
         void Draw();
 
-        void SetPlayerCell(int PlayerX, int PlayerY);
+        bool SetPlayerCell(int PlayerX, int PlayerY);
 
     protected:
 
