@@ -7,14 +7,14 @@ using namespace std;
 
 int main()
 {
-    bool isGameOver = false;
     GameMap Map;
     Player Hero;
 
     Map.DrawIntro();
 
-    while (isGameOver == false)
+    while (Map.isGameOver == false)
     {
+        cout << "Introduce el comando de movimiento 'w''a''s''d': " << endl;
         Hero.CallInput();
 
         if(Map.SetPlayerCell(Hero.x, Hero.y))
